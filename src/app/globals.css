@@ -12,7 +12,7 @@
   --black-100: #b4b5b6;
   --black-200: #707070;
   --black-300: #5e5f60;
-  --black-400: #454444;
+  --black-400: #585656;
   --black-600: #232323;
   --black-700: #1b1b1b;
   --black-800: #000000;
@@ -89,7 +89,7 @@
 @layer utilities {
   .text-stroke {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1.5px black;
+    -webkit-text-stroke: 1.5px var(--black-600);
     transition: all 0.5s ease;
     cursor: pointer;
   }
@@ -97,8 +97,8 @@
   .text-stroke-2 {
     -webkit-text-stroke-width: 2px;
     text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    text-stroke-color: black;
+    -webkit-text-stroke-color: var(--black-600);
+    text-stroke-color: var(--black-600);
     color: transparent;
   }
 
