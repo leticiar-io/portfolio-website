@@ -11,7 +11,7 @@ export default function Home() {
     <div data-scroll-container >
       <Hero />
       <Marquee />
-      <div className="flex justify-center items-center mt-40 mb-52">
+      <div className="flex items-center justify-center mt-40">
         <Description />
       </div>
       <Project />
