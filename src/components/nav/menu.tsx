@@ -24,7 +24,7 @@ const Nav = () => {
          initial="initial"
          animate="enter"
          exit="exit"
-         className="fixed top-0 right-0 w-screen h-screen bg-black-700 text-white font-light lg:w-1/2"
+         className="absolute z-20 fixed top-0 right-0 w-screen h-screen bg-black-700 text-white font-light lg:w-1/2"
       >
          <div className="h-full p-12 lg:p-[6.25rem] flex flex-col justify-between">
             <div

@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import { gsap } from 'gsap';
 
 import Nav from './nav';
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/button";
 
 const headerLinks = [
   { label: "Sobre", href: "/about" },

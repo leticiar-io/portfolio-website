@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative">
+      <div className="absolute z-30">
         <div className="fixed top-0 right-0 z-10 p-8">
           <div 
             onClick={() => setIsActive(!isActive)} 
