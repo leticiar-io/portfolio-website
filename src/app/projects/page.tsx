@@ -94,7 +94,9 @@ const ProjectsPage = () => {
               >
                 <h3 className="text-white text-xl font-bold mb-4">{item.name}</h3>
                 <a
-                  ref={(el) => buttonRefs.current[index] = el} // Atribuindo ref no índice correto
+                  ref={(el) => {
+                    buttonRefs.current[index] = el
+                  }}
                   href="#"
                   className="w-32 h-32 sm:w-28 sm:h-28 bg-yellow text-black rounded-full flex items-center justify-center shadow transition-all"
                 >
