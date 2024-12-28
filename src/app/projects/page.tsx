@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/button"; // Supondo que o componente Button já esteja configurado
 import clsx from "clsx";
 import gsap from "gsap";
-import Image from "next/image";
 
 const ProjectsPage = () => {
   const [filter, setFilter] = useState("Todos");
