@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Anton, Playball, Poppins } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 import Header from "@/components/header";
 
 const title = Anton({
@@ -30,6 +31,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
+      <Head>
+          <link rel="icon" href="/code.svg" />
+      </Head>
       <body className={`${title.className} ${subtitle.className} ${font.className}`}>
         <Header />
         {children}
