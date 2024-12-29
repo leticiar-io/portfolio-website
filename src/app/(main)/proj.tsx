@@ -9,22 +9,22 @@ const projects = [
    {
       title: "Paynow",
       src: "project1.png",
-      color: "#000000",
-      category: "Design UI/UX",
+      color: "#8C8C8C",
+      category: "Design UI",
       link: "#",
    },
    {
-      title: "Let me ask",
-      src: "project1.png",
-      color: "#8C8C8C",
+      title: "DT Money",
+      src: "dtmoney.png",
+      color: "#EFE8D3",
       category: "Web Development",
       link: "#",
    },
    {
       title: "Modoke",
-      src: "project1.png",
-      color: "#EFE8D3",
-      category: "Design UI/UX & Web Development",
+      src: "modoke.jpg",
+      color: "#000000",
+      category: "Web Development",
       link: "#",
    },
 ];
@@ -35,7 +35,7 @@ export default function Project() {
    return (
       <main className="flex flex-col items-center justify-center mt-20 sm:mt-32 lg:mt-80 2xl:mt-80 overflow-x-hidden">
          <span className="text-start font-light text-black-500 w-full px-4 sm:px-8 lg:px-[5.9375rem] text-sm sm:text-base lg:text-lg">
-            PROJETOS RECENTES
+            PROJETOS
          </span>
          <div className="w-full px-4 sm:px-8 lg:px-[5.9375rem] flex flex-col gap-8 sm:gap-12 lg:gap-16 items-center justify-center">
             {projects.map((project, index) => (
