@@ -100,11 +100,11 @@ export default function Index() {
                 </li>
               ))}
               <li>
-                <Link href="/signin">
+                <Link  href="mailto:leticia.rodrigues20021@gmail.com">
                   <Button
                     type="button"
                     variant="default"
-                    className="text-white"
+                    className="text-white hover:px-10"
                   >
                     Fale Comigo!
                   </Button>

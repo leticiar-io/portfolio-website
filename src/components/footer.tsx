@@ -6,7 +6,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Contato() {
+export default function Footer() {
    return (
       <footer className="flex flex-col gap-12 justify-center bg-black-600 min-h-[calc(100vh-200px)] text-white overflow-hidden">
          <div className="relative">
@@ -37,13 +37,13 @@ export default function Contato() {
             <div className="w-[90%] mx-auto flex flex-col sm:flex-row mt-12  md:w-[75%] md:items-center gap-4 sm:gap-6">
                <Link href="mailto:leticia.rodrigues20021@gmail.com">
                   <Button variant="whiteStroke" className="text-sm sm:text-sm">
-                     <MdOutlineEmail className="mr-2 sm:mr-4 text-lg sm:text-base" />
+                     <MdOutlineEmail className="hover:px-10 mr-2 sm:mr-4 text-lg sm:text-base" />
                      <span className="truncate">leticia.rodrigues20021@gmail.com</span>
                   </Button>
                </Link>
                <Link href="https://github.com/leticiar-io" target="_blank">
                   <Button variant="whiteStroke" className="text-sm sm:text-base">
-                     <FaLinkedinIn className="mr-2 sm:mr-4 text-lg sm:text-base" />
+                     <FaLinkedinIn className="hover:px-10 mr-2 sm:mr-4 text-lg sm:text-base" />
                      <span className="truncate">leticiar-io</span>
                   </Button>
                </Link>

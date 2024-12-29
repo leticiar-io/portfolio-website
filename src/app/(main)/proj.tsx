@@ -9,23 +9,23 @@ const projects = [
    {
       title: "Paynow",
       src: "project1.png",
-      color: "#8C8C8C",
+      color: "#C3B1E1",
       category: "Design UI",
-      link: "#",
+      link: "https://www.behance.net/gallery/215598431/Paynow-Landing-Page",
    },
    {
       title: "DT Money",
       src: "dtmoney.png",
       color: "#EFE8D3",
-      category: "Web Development",
-      link: "#",
+      category: "Web Developer",
+      link: "https://github.com/leticiar-io/dt-money-ignite",
    },
    {
       title: "Modoke",
       src: "modoke.jpg",
-      color: "#000000",
-      category: "Web Development",
-      link: "#",
+      color: "#c3f3d3",
+      category: "Web Developer",
+      link: "https://github.com/borealis-smd/modoke-web",
    },
 ];
 
@@ -46,13 +46,14 @@ export default function Project() {
                   setModal={setModal}
                   key={index}
                   link={project.link}
+                  className='border-t'
                />
             ))}
          </div>
          <Modal modal={modal} projects={projects} />
 
          <Link href="/projects" className="mt-10 mb-20 sm:mb-32 lg:mb-48 2xl:mb-56">
-            <Button variant="stroke" className="text-sm sm:text-base lg:text-lg">
+            <Button variant="stroke" className="hover:px-10 text-sm sm:text-base lg:text-lg">
                Mais projetos
             </Button>
          </Link>

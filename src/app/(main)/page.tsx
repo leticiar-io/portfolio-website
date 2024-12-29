@@ -3,8 +3,8 @@
 import Marquee from '@/components/marquee';
 import Hero from './hero';
 import Description from './description';
-import Contato from './contato';
 import Project from './proj';
+import Footer from '@/components/footer';
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         <Project />
       </div>
-      <Contato />
+      <Footer />
     </div>
   );
 }

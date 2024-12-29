@@ -71,6 +71,9 @@ export default {
         },
         yellow: "var(--yellow)",
       },
+      screens: {
+        'ld': { min: '573px', max: '608px' }, 
+      },
     },
   },
   plugins: [
