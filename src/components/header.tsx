@@ -38,7 +38,7 @@ export default function Index() {
 
     // Adicionar evento de resize
     window.addEventListener('resize', handleResize);
-    
+
     // Verificar diretamente no início
     handleResize();
 
@@ -88,28 +88,30 @@ export default function Index() {
     <>
       {/* Renderiza o cabeçalho apenas quando o menu não estiver visível e em telas grandes */}
       {!isVisible && !isMobile && (
-        <header className="h-20 w-full py-9 px-1 lg:px-[5.9375rem] flex justify-between items-center">
-          <Link href="/" className="font-anton text-4xl">
-            <span className="text-yellow">Le</span>folio
-          </Link>
-          <ul className="font-poppins font-light flex space-x-12 items-center">
-            {headerLinks.map((item, index) => (
-              <li key={index} className="text-[#454546] h-full leading-2 hidden text-lg lg:block">
-                <a href={item.href} className="flex hover:pb-2 hover:text-black-800 transition-all duration-150">{item.label}</a>
+        <header className="h-20 w-full">
+          <div className="w-full flex justify-between items-center py-4 px-1 lg:px-[5.9375rem]">
+            <Link href="/" className="font-anton text-4xl">
+              <span className="text-yellow">Le</span>folio
+            </Link>
+            <ul className="font-poppins font-light flex space-x-12 items-center">
+              {headerLinks.map((item, index) => (
+                <li key={index} className="text-[#454546] h-full leading-2 hidden text-lg lg:block">
+                  <a href={item.href} className="flex hover:pb-2 hover:text-black-800 transition-all duration-150">{item.label}</a>
+                </li>
+              ))}
+              <li>
+                <Link href="/signin">
+                  <Button
+                    type="button"
+                    variant="default"
+                    className="text-white"
+                  >
+                    Fale Comigo!
+                  </Button>
+                </Link>
               </li>
-            ))}
-            <li>
-              <Link href="/signin">
-                <Button
-                  type="button"
-                  variant="default"
-                  className="text-white"
-                >
-                  Fale Comigo!
-                </Button>
-              </Link>
-            </li>
-          </ul>
+            </ul>
+          </div>
         </header>
       )}
 

@@ -9,9 +9,9 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-black-800 text-white hover:px-10 transition-all duration-300 ease-in-out",
+          "bg-black-800 text-white hover:px-10 border-3 transition-all duration-300 ease-in-out",
         stroke:
-          "bg-transparent text-black-700 border-3 border-black-700 hover:bg-black-800 hover:px-10 hover:text-white hover:border-0 transition-all duration-250 ease-in-out",
+          "bg-transparent text-black-700 border-3 border-black-700 hover:bg-black-800 hover:px-10 hover:text-white hover:border-3 transition-all duration-250 ease-in-out",
         simpleStroke:
           "bg-transparent text-black-700 border-3 border-black-700 hover:bg-black-800 hover:px-10 hover:text-white hover:border-0 transition-all duration-250 ease-in-out",
         whiteStroke:

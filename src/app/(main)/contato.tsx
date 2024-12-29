@@ -8,10 +8,10 @@ import Link from "next/link";
 
 export default function Contato() {
    return (
-      <footer className="flex flex-col  gap-12 justify-center bg-black-600 min-h-[calc(100vh-200px)] text-white overflow-hidden">
-         <div className="relative px-[2rem] sm:px-12 2xl:min-w-full 2xl:px-[5.9375rem]">
-            <div className="text-start w-full">
-               <h1 className="font-bold text-5xl sm:text-4xl lg:text-5xl 2xl:text-6xl lg:w-2/3 2xl:w-full">
+      <footer className="flex flex-col gap-12 justify-center bg-black-600 min-h-[calc(100vh-200px)] text-white overflow-hidden">
+         <div className="relative">
+            <div className="text-start w-[90%] mx-auto md:w-[75%] ">
+               <h1 className="pb-2 font-bold tracking-tighter text-5xl sm:text-4xl 2xl:text-[4rem] lg:w-2/3 ">
                   Vamos trabalhar juntos
                </h1>
                <p className="font-light text-lg sm:text-base lg:text-2xl text-black-100 mt-2 mb-6">
@@ -20,10 +20,10 @@ export default function Contato() {
             </div>
 
             {/* Linha Divisória */}
-            <div className="h-[1px] w-full md:max-w-8xl bg-black-400"></div>
+            <div className="h-[1px] w-[90%] mx-auto md:w-[75%] md:max-w-8xl bg-black-400"></div>
 
             {/* Imagem */}
-            <div className="absolute w-[15.625rem] h-[15.625rem] sm:w-[12rem] sm:h-[12rem] 2xl:w-[25rem] 2xl:h-[25rem] right-24 -top-12 2xl:-top-16">
+            <div className="absolute w-[15.625rem] h-[15.625rem] sm:w-[12rem] sm:h-[12rem] lg:w-[16rem] lg:h-[16rem] 2xl:w-[22rem] 2xl:h-[22rem] right-20 -top-12 2xl:-top-16">
                <Image
                   src="/code.svg" // Caminho corrigido para assets públicos
                   alt="Contato"
@@ -34,7 +34,7 @@ export default function Contato() {
             </div>
 
             {/* Links de Contato */}
-            <div className="flex flex-col sm:flex-row mt-12 w-full md:items-center gap-4 sm:gap-6">
+            <div className="w-[90%] mx-auto flex flex-col sm:flex-row mt-12  md:w-[75%] md:items-center gap-4 sm:gap-6">
                <Link href="mailto:leticia.rodrigues20021@gmail.com">
                   <Button variant="whiteStroke" className="text-sm sm:text-sm">
                      <MdOutlineEmail className="mr-2 sm:mr-4 text-lg sm:text-base" />

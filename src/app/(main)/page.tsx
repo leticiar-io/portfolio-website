@@ -8,13 +8,15 @@ import Project from './proj';
 
 export default function Home() {
   return (
-    <div data-scroll-container >
+    <div data-scroll-container>
       <Hero />
       <Marquee />
-      <div className="flex items-center justify-center mt-40">
-        <Description />
+      <div className="lg:w-[75%] lg:mx-auto">
+        <div className="flex items-center justify-center mt-40">
+          <Description />
+        </div>
+        <Project />
       </div>
-      <Project />
       <Contato />
     </div>
   );
