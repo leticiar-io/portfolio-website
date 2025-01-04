@@ -8,10 +8,9 @@ import LinkItem from './link'
 import Curve from './curve'
 
 const navItems = [
-   { title: 'Home', href: '/' },
-   { title: 'Projetos', href: '/project' },
+   { title: 'Inicio', href: '/' },
    { title: 'Sobre', href: '/about' },
-   { title: 'Contato', href: '/contact' },
+   { title: 'Projetos', href: '/projects' },
 ]
 
 const Nav = () => {
@@ -46,8 +45,7 @@ const Nav = () => {
             <div className="flex justify-between text-start text-black-100 text-sm">
                <a href='www.linkedin.com/in/leticiar-io' target='_blank' className='hover:text-white transition-colors duration-200'>LinkedIn</a>
                <a href='https://github.com/leticiar-io' target='_blank' className='hover:text-white transition-colors duration-200'>Github</a>
-               <a href='https://www.behance.net/8dfb8b5e' target='_blank' className='hover:text-white transition-colors duration-200'>Behance</a>
-               <a href='https://dribbble.com/leticiaar-io' target='_blank' className='hover:text-white transition-colors duration-200'>Dribble</a>
+               <a href='https://www.behance.net/leticiar-io' target='_blank' className='hover:text-white transition-colors duration-200'>Behance</a>
             </div>
          </div>
          <Curve />
