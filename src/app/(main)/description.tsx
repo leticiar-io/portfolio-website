@@ -16,11 +16,11 @@ export default function Description() {
                Meu foco é criar experiências que conectam pessoas e causam impacto real.
             </p>
             <Link href="/about">
-            <div className="md:absolute z-0 lg:top-22 top-36 left-[calc(100%-150px)] sm:left-[calc(100%-180px)] lg:left-[calc(100%-200px)] 2xl:left-[calc(100%-300px)] w-32 sm:w-36 lg:w-44 h-32 sm:h-36 lg:h-44 bg-black-600 text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-yellow hover:text-base sm:hover:text-lg lg:hover:text-xl transition-all duration-300 hover:w-36 sm:hover:w-40 lg:hover:w-48 hover:h-36 sm:hover:h-40 lg:hover:h-48">
-               <div className="text-sm sm:text-md font-light relative z-10">
-                  Sobre mim
+               <div className="md:absolute z-0 lg:top-22 top-36 left-[calc(100%-150px)] sm:left-[calc(100%-180px)] lg:left-[calc(100%-200px)] 2xl:left-[calc(100%-300px)] w-32 sm:w-36 lg:w-44 h-32 sm:h-36 lg:h-44 bg-black-600 text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-yellow hover:text-base sm:hover:text-lg lg:hover:text-xl transition-all duration-300 hover:w-36 sm:hover:w-40 lg:hover:w-48 hover:h-36 sm:hover:h-40 lg:hover:h-48">
+                  <div className="text-sm sm:text-md font-light relative z-10">
+                     Sobre mim
+                  </div>
                </div>
-            </div>
             </Link>
          </div>
       </div>
