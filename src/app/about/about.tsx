@@ -39,7 +39,7 @@ export default function About() {
                </p>
 
                <div>
-                  <Link href="https://drive.google.com/file/d/1P1mb4eTWSc6v6NpP6iPkVOdxZxZ7z5ne/view?usp=sharing" target="_blank">
+                  <Link href="https://drive.google.com/file/d/1NfpBN1PC1gvQcUusVasL-HdFuqGVUz0D/view?usp=sharing" target="_blank">
                      <Button
                         variant="stroke"
                         className="text-sm md:text-base px-6 md:px-8 py-2 md:py-3 sm:mt-3 2xl:mt-0 flex items-center justify-center hover:bg-gray-100 hover:border-gray-100 hover:px-10 transition-all duration-200"
