@@ -41,7 +41,7 @@ export default function Footer() {
                      <span className="truncate">leticia.rodrigues20021@gmail.com</span>
                   </Button>
                </Link>
-               <Link href="https://github.com/leticiar-io" target="_blank">
+               <Link href="https://www.linkedin.com/in/leticiar-io/" target="_blank">
                   <Button variant="whiteStroke" className="text-sm sm:text-base">
                      <FaLinkedinIn className="hover:px-10 mr-2 sm:mr-4 text-lg sm:text-base" />
                      <span className="truncate">leticiar-io</span>
