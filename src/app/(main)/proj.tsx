@@ -11,7 +11,7 @@ const projects = [
       src: "project1.png",
       color: "#C3B1E1",
       category: "Design UI",
-      link: "https://www.behance.net/gallery/215598431/Paynow-Landing-Page",
+      link: "https://www.behance.net/gallery/223096151/Paynow-%28Web-Landing-Page%29",
    },
    {
       title: "DT Money",
